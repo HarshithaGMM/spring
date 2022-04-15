@@ -16,7 +16,7 @@ import tnsif.c2tc.b09.Service.ItemService;
 public class ItemController {
 	@Autowired
 	ItemService service;
-	@RequestMapping("/addEmployee")
+	@RequestMapping("/addItem")
 	public void addItem(@RequestBody Item item)
 	{
 		service.addItem(item);
